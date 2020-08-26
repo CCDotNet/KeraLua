@@ -117,7 +117,7 @@ namespace KeraLua.Tests
 		}
 
 		[Test]
-		[Ignore]
+		[Ignore("")]
 		public void Env ()
 		{
 			Setup ();
@@ -158,7 +158,7 @@ namespace KeraLua.Tests
 		}
 
 		[Test]
-		[Ignore]
+		[Ignore("")]
 		public void ReadOnly ()
 		{
 			Setup ();
@@ -184,7 +184,7 @@ namespace KeraLua.Tests
 		}
 
 		[Test]
-		[Ignore]
+		[Ignore("")]
 		public void TraceGlobals ()
 		{
 			Setup ();

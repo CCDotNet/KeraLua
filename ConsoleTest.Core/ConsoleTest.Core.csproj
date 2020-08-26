@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\KeraLua.Standard\KeraLua.Standard.csproj" />
+      <ProjectReference Include="..\KeraLua.Tests.Standard\KeraLua.Tests.Standard.csproj" />
+    </ItemGroup>
+
+</Project>

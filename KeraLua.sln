@@ -1,10 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeraLua", "src\KeraLua.csproj", "{47153754-10F5-44D8-B578-F5A32B69061A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeraLua.Tests", "KeraLua.Tests\KeraLua.Tests.csproj", "{9C7932E8-A045-4AE4-A3B4-9F4C44511087}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{756970D7-508A-490D-80CA-6004EA8E5A76}"
 	ProjectSection(SolutionItems) = preProject
 		KeraLua.vsmdi = KeraLua.vsmdi
@@ -13,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{6BB2A98E-D8AF-4A62-BCA3-E610ED751509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeraLua.Standard", "KeraLua.Standard\KeraLua.Standard.csproj", "{FE75F175-11FE-45AE-BF34-64490C3EA1CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest.Core", "ConsoleTest.Core\ConsoleTest.Core.csproj", "{C1DD0E19-8FE4-440A-9625-240E96D83C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeraLua.Tests.Standard", "KeraLua.Tests.Standard\KeraLua.Tests.Standard.csproj", "{4CA0FED6-D7F5-45C3-B1FA-61FFE43F342C}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -23,18 +25,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{47153754-10F5-44D8-B578-F5A32B69061A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47153754-10F5-44D8-B578-F5A32B69061A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47153754-10F5-44D8-B578-F5A32B69061A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47153754-10F5-44D8-B578-F5A32B69061A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C7932E8-A045-4AE4-A3B4-9F4C44511087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C7932E8-A045-4AE4-A3B4-9F4C44511087}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C7932E8-A045-4AE4-A3B4-9F4C44511087}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C7932E8-A045-4AE4-A3B4-9F4C44511087}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6BB2A98E-D8AF-4A62-BCA3-E610ED751509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6BB2A98E-D8AF-4A62-BCA3-E610ED751509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB2A98E-D8AF-4A62-BCA3-E610ED751509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB2A98E-D8AF-4A62-BCA3-E610ED751509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE75F175-11FE-45AE-BF34-64490C3EA1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE75F175-11FE-45AE-BF34-64490C3EA1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE75F175-11FE-45AE-BF34-64490C3EA1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE75F175-11FE-45AE-BF34-64490C3EA1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DD0E19-8FE4-440A-9625-240E96D83C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DD0E19-8FE4-440A-9625-240E96D83C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DD0E19-8FE4-440A-9625-240E96D83C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DD0E19-8FE4-440A-9625-240E96D83C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA0FED6-D7F5-45C3-B1FA-61FFE43F342C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA0FED6-D7F5-45C3-B1FA-61FFE43F342C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA0FED6-D7F5-45C3-B1FA-61FFE43F342C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA0FED6-D7F5-45C3-B1FA-61FFE43F342C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

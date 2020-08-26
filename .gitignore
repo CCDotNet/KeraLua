@@ -85,6 +85,9 @@ packages
 csx
 *.build.csdef
 
+# Rider
+/.idea
+
 # Windows Store app package directory
 AppPackages/
 
