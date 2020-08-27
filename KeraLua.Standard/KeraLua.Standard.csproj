@@ -3,5 +3,9 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
     </PropertyGroup>
-
+    
+    <Import Project=".\targets\BuildLua.Common.props" />
+    <Import Project=".\targets\BuildLua.Windows.targets" />
+    <Import Project=".\targets\BuildLua.OSX.targets" />
+    <Import Project=".\targets\BuildLua.Linux.targets" />
 </Project>
